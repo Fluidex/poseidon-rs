@@ -1,5 +1,5 @@
 extern crate rand;
-#[macro_use]
+
 extern crate ff;
 use ff::*;
 
