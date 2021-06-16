@@ -3,6 +3,7 @@ extern crate rand;
 extern crate ff;
 use ff::*;
 
+#[cfg_attr(feature = "with-serde", derive(serde::Serialize, serde::Deserialize))]
 #[derive(PrimeField)]
 #[PrimeFieldModulus = "21888242871839275222246405745257275088548364400416034343698204186575808495617"]
 #[PrimeFieldGenerator = "7"]
