@@ -9,7 +9,7 @@ repository = "https://github.com/arnaucube/poseidon-rs"
 readme = "README.md"
 
 [dependencies]
-ff = { package = "ff_ce", git = "https://github.com/Fluidex/ff.git", branch = "serde", features = ["derive"] }
+ff = { package = "ff_ce", git = "https://github.com/Fluidex/ff.git", features = ["derive"] }
 rand = "0.8"
 serde = { version = "1.0", default-features = false, features = ["derive"], optional = true }
 
